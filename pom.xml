@@ -42,6 +42,8 @@
         <version>3.4.0</version>
         <configuration>
           <failOnMissingWebXml>false</failOnMissingWebXml>
+          <warSourceDirectory>src/main/webapp</warSourceDirectory>
+          <finalName>my-app</finalName>
         </configuration>
       </plugin>
       
@@ -58,10 +60,10 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.9.2,)</version>
+                  <version>[3.9.2,]</version>
                 </requireMavenVersion>
                 <requireJavaVersion>
-                  <version>[17,)</version>
+                  <version>[17,]</version>
                 </requireJavaVersion>
               </rules>
             </configuration>
