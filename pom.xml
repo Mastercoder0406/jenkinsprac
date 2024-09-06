@@ -73,7 +73,6 @@
     </plugins>
   </build>
   
-  <!-- Add the following to ensure the src/main/webapp directory exists -->
   <profiles>
     <profile>
       <id>create-webapp-dir</id>
